@@ -4,7 +4,7 @@ import { groupIndexEtfs } from "./data";
 function App() {
   return (
     <table className="w-full">
-      <thead>
+      <thead className="sticky top-0">
         <tr className="bg-slate-400">
           <th className="text-left">名称</th>
           <th className="text-left">代码</th>
